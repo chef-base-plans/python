@@ -13,7 +13,7 @@ control 'core-plans-python' do
   For python we check that the version is correctly returned e.g.
 
     $ python --version
-    Python 3.7.0 (default, Mar 10 2020, 04:03:09)
+    Python 3.9.5 (default, Mar 10 2020, 04:03:09)
     [GCC 9.1.0]
 
   As is often customary, we also say hello to the world with python:
