@@ -27,6 +27,7 @@ pkg_deps=(
   core/openssl
   core/readline
   core/sqlite/3.35.1
+  core/xz
   core/zlib
 )
 
