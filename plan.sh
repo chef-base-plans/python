@@ -1,6 +1,6 @@
 pkg_name=python
 pkg_distname=Python
-pkg_version=3.9.5
+pkg_version=3.10.0
 pkg_origin=core
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=('Python-2.0')
