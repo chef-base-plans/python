@@ -24,7 +24,7 @@ pkg_deps=(
   core/glibc
   core/libffi
   core/ncurses
-  core/openssl
+  core/openssl11
   core/readline
   core/sqlite
   core/xz
@@ -51,6 +51,7 @@ do_build() {
               --enable-shared \
               --with-system-expat \
               --with-ensurepip \
+	      --with-openssl="$(pkg_path_for openssl11)" \
               --enable-optimizations
   make
 }
